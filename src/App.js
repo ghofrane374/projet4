@@ -8,6 +8,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
+        <h1 className="titre">*voici le formulaire à remplir*</h1>
         <form className="formu">
           <div className="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -23,7 +24,7 @@ export default class App extends Component {
             </small>
           </div>
           <div className="form-group">
-            <label for="exampleInputPassword1">Passfffword</label>
+            <label for="exampleInputPassword1">Password</label>
             <input
               type="password"
               className="form-control"
